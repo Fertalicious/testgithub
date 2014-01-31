@@ -20,6 +20,14 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	
+
+	@Override
+	protected void onStop() {
+		// TODO Auto-generated method stub
+		super.onStop();
+	}
+
 
 	@Override
 	protected void onDestroy() {
