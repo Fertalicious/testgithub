@@ -27,6 +27,13 @@ public class MainActivity extends Activity {
 		super.onDestroy();
 	}
 
+
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+	}
+
 	
 
 }
